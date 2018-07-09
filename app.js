@@ -27,5 +27,6 @@ function runEvent(e) {
 
     heading.textContent = `MouseX: ${e.offsetX} MouseY: ${e.offsetY}`;
     // change the background color based on x and y co-ordinates using mouse move events
-    document.body.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 40)`;
+    document.body.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 55)`;
+    heading.style.color = `rgb(${e.offsetX}, ${e.offsetY}, 55)`;
 }
